@@ -9,7 +9,7 @@
             "ioValues": [
                 {
                     "name": "Center Length",
-                    "ioValue": 10
+                    "ioValue": 45
                 },
                 {
                     "name": "Shoulder Length",
@@ -42,8 +42,8 @@
                 {
                     "atomType": "Input",
                     "name": "Center Length",
-                    "x": 54,
-                    "y": 178,
+                    "x": 55,
+                    "y": 179,
                     "uniqueID": 306268,
                     "ioValues": []
                 },
@@ -63,8 +63,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 242,
-                    "y": 74,
+                    "x": 244,
+                    "y": 79,
                     "uniqueID": 383819,
                     "ioValues": [
                         {
@@ -89,17 +89,17 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 339,
-                    "y": 149,
+                    "x": 341,
+                    "y": 150,
                     "uniqueID": 968888,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0
+                            "ioValue": 45
                         },
                         {
                             "name": "y",
-                            "ioValue": 0
+                            "ioValue": 8
                         }
                     ],
                     "currentEquation": 0
@@ -107,8 +107,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 290,
-                    "y": 244,
+                    "x": 299,
+                    "y": 252,
                     "uniqueID": 217897,
                     "ioValues": [
                         {
@@ -120,7 +120,7 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 266.23315118397085,
+                    "x": 259,
                     "y": 308,
                     "uniqueID": 379254,
                     "ioValues": [
@@ -147,15 +147,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 45
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 717,
-                    "y": 40,
+                    "x": 721,
+                    "y": 44,
                     "uniqueID": 515011,
                     "ioValues": [
                         {
@@ -168,7 +168,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 28
+                            "ioValue": 53
                         }
                     ]
                 },
@@ -228,11 +228,22 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap1ID": 810363,
+                    "ap2ID": 968888
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "zDist",
                     "ap1ID": 306268,
                     "ap2ID": 975841
                 },
-                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 306268,
+                    "ap2ID": 968888
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -256,6 +267,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 465212,
                     "ap2ID": 379254
+                },
+                {
+                    "ap1Name": "z",
+                    "ap2Name": "zDist",
+                    "ap1ID": 968888,
+                    "ap2ID": 515011
                 },
                 {
                     "ap1Name": "geometry",
