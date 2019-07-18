@@ -6,7 +6,16 @@
             "x": 0,
             "y": 0,
             "uniqueID": 841794,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Center Length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Shoulder Length",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
                 {
@@ -21,6 +30,14 @@
                             "ioValue": 4
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Shoulder Length",
+                    "x": 42,
+                    "y": 126,
+                    "uniqueID": 810363,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -38,8 +55,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 237.61930783242258,
-                    "y": 65.93624772313296,
+                    "x": 236,
+                    "y": 66,
                     "uniqueID": 383819,
                     "ioValues": [
                         {
@@ -49,10 +66,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Center Length",
+                    "x": 71,
+                    "y": 251,
+                    "uniqueID": 306268,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 283.6502732240437,
-                    "y": 176.65938069216756,
+                    "x": 274,
+                    "y": 145,
                     "uniqueID": 217897,
                     "ioValues": [
                         {
@@ -65,7 +90,7 @@
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 109.47905282331512,
-                    "y": 324.70491803278685,
+                    "y": 308,
                     "uniqueID": 465212,
                     "ioValues": [
                         {
@@ -78,7 +103,7 @@
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 266.23315118397085,
-                    "y": 315.9963570127504,
+                    "y": 308,
                     "uniqueID": 379254,
                     "ioValues": [
                         {
@@ -104,7 +129,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 8
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -165,8 +190,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1285.134790528233,
-                    "y": 169.19489981785063,
+                    "x": 1048,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -194,6 +219,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 383819,
                     "ap2ID": 515011
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 306268,
+                    "ap2ID": 975841
                 },
                 {
                     "ap1Name": "geometry",
