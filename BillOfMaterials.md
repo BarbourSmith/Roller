@@ -3,4 +3,4 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |Magnet|1|1.5|www.example.com|
-|name|0|0|www.example.com|
+|Roller|1|3.5|www.example.com|

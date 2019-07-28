@@ -223,9 +223,9 @@
                     "uniqueID": 954855,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
-                        "costUSD": 0,
+                        "BOMitemName": "Roller",
+                        "numberNeeded": 1,
+                        "costUSD": 3.5,
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
