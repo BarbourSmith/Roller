@@ -209,11 +209,41 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 1072,
-                    "y": 183,
+                    "x": 900,
+                    "y": 84,
                     "uniqueID": 124624,
                     "ioValues": [],
                     "selectedColorIndex": "0"
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1034,
+                    "y": 183,
+                    "uniqueID": 954855,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1132,
+                    "y": 132,
+                    "uniqueID": 388872,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Magnet",
+                        "numberNeeded": 1,
+                        "costUSD": 1.5,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -322,8 +352,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 124624,
+                    "ap2ID": 954855
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 954855,
+                    "ap2ID": 388872
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 124624
+                    "ap1ID": 388872
                 }
             ],
             "fileTypeVersion": 1

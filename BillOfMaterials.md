@@ -2,3 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Magnet|1|1.5|www.example.com|
+|name|0|0|www.example.com|
