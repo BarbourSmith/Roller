@@ -201,10 +201,19 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 888,
-                    "y": 267,
+                    "x": 853,
+                    "y": 226,
                     "uniqueID": 830533,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 1072,
+                    "y": 183,
+                    "uniqueID": 124624,
+                    "ioValues": [],
+                    "selectedColorIndex": "0"
                 },
                 {
                     "atomType": "Output",
@@ -307,8 +316,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 830533,
+                    "ap2ID": 124624
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 830533
+                    "ap1ID": 124624
                 }
             ],
             "fileTypeVersion": 1
