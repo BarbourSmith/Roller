@@ -8,12 +8,12 @@
             "uniqueID": 841794,
             "ioValues": [
                 {
-                    "name": "Center Length",
-                    "ioValue": 45
-                },
-                {
                     "name": "Shoulder Length",
                     "ioValue": 8
+                },
+                {
+                    "name": "Center Length",
+                    "ioValue": 45
                 }
             ],
             "topLevel": true,
@@ -26,8 +26,8 @@
                     "uniqueID": 539232,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 4
+                            "name": "diameter",
+                            "ioValue": 8
                         }
                     ]
                 },
@@ -55,8 +55,8 @@
                     "uniqueID": 641414,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 5
+                            "name": "diameter",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -76,39 +76,21 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 67,
-                    "y": 308,
+                    "x": 47,
+                    "y": 297,
                     "uniqueID": 465212,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 3
+                            "name": "diameter",
+                            "ioValue": 10
                         }
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 341,
-                    "y": 150,
-                    "uniqueID": 968888,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 45
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 8
-                        }
-                    ],
-                    "currentEquation": 0
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 303,
-                    "y": 255,
+                    "x": 276,
+                    "y": 222,
                     "uniqueID": 217897,
                     "ioValues": [
                         {
@@ -120,8 +102,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 259,
-                    "y": 308,
+                    "x": 290,
+                    "y": 285,
                     "uniqueID": 379254,
                     "ioValues": [
                         {
@@ -154,8 +136,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 721,
-                    "y": 44,
+                    "x": 647,
+                    "y": 43,
                     "uniqueID": 515011,
                     "ioValues": [
                         {
@@ -168,7 +150,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 53
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -208,7 +190,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1048,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -228,21 +210,9 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "y",
-                    "ap1ID": 810363,
-                    "ap2ID": 968888
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "zDist",
                     "ap1ID": 810363,
                     "ap2ID": 975841
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "x",
-                    "ap1ID": 306268,
-                    "ap2ID": 968888
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -273,12 +243,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 465212,
                     "ap2ID": 379254
-                },
-                {
-                    "ap1Name": "z",
-                    "ap2Name": "zDist",
-                    "ap1ID": 968888,
-                    "ap2ID": 515011
                 },
                 {
                     "ap1Name": "geometry",
