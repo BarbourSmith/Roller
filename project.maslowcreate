@@ -8,10 +8,6 @@
             "uniqueID": 841794,
             "ioValues": [
                 {
-                    "name": "Shoulder Length",
-                    "ioValue": 8
-                },
-                {
                     "name": "Center Length",
                     "ioValue": 45
                 }
@@ -32,12 +28,17 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
+                    "atomType": "Constant",
                     "name": "Shoulder Length",
-                    "x": 42,
-                    "y": 126,
-                    "uniqueID": 810363,
-                    "ioValues": []
+                    "x": 72,
+                    "y": 119,
+                    "uniqueID": 795906,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 7
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -69,7 +70,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 8
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -82,7 +83,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -129,7 +130,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 8
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -201,18 +202,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 539232,
                     "ap2ID": 383819
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap1ID": 810363,
-                    "ap2ID": 383819
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 810363,
-                    "ap2ID": 975841
                 },
                 {
                     "ap1Name": "number or geometry",
