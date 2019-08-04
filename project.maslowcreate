@@ -9,7 +9,7 @@
             "ioValues": [
                 {
                     "name": "Center Length",
-                    "ioValue": 45
+                    "ioValue": 41
                 }
             ],
             "topLevel": true,
@@ -96,7 +96,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 45
+                            "ioValue": 41
                         }
                     ]
                 },
@@ -109,7 +109,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 45
+                            "ioValue": 41
                         },
                         {
                             "name": "y",
@@ -169,7 +169,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 52
+                            "ioValue": 48
                         }
                     ]
                 },
@@ -229,6 +229,14 @@
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 1073,
+                    "y": 259,
+                    "uniqueID": 657396,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -349,6 +357,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 830533,
                     "ap2ID": 124624
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 830533,
+                    "ap2ID": 657396
                 },
                 {
                     "ap1Name": "geometry",
