@@ -83,7 +83,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 6.05
+                            "ioValue": 6.1
                         }
                     ]
                 },
@@ -101,10 +101,23 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 290,
+                    "y": 284,
+                    "uniqueID": 379254,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2.5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 372,
-                    "y": 151,
+                    "x": 431,
+                    "y": 149,
                     "uniqueID": 891754,
                     "ioValues": [
                         {
@@ -117,19 +130,6 @@
                         }
                     ],
                     "currentEquation": "x + y"
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 290,
-                    "y": 284,
-                    "uniqueID": 379254,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2.5
-                        }
-                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -329,16 +329,16 @@
                     "ap2ID": 975841
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap1ID": 891754,
-                    "ap2ID": 515011
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 379254,
                     "ap2ID": 830533
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 891754,
+                    "ap2ID": 515011
                 },
                 {
                     "ap1Name": "geometry",
