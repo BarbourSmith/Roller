@@ -90,8 +90,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 276,
-                    "y": 222,
+                    "x": 269,
+                    "y": 219,
                     "uniqueID": 217897,
                     "ioValues": [
                         {
@@ -209,8 +209,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 900,
-                    "y": 84,
+                    "x": 939,
+                    "y": 135,
                     "uniqueID": 124624,
                     "ioValues": [],
                     "selectedColorIndex": "0"
