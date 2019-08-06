@@ -70,7 +70,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 7
                         }
                     ]
                 },
@@ -279,6 +279,12 @@
                     "ap2Name": "y",
                     "ap1ID": 795906,
                     "ap2ID": 891754
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "height",
+                    "ap1ID": 795906,
+                    "ap2ID": 383819
                 },
                 {
                     "ap1Name": "number or geometry",
