@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Magnet|1|$1.50|www.example.com|
+|Magnet|1|$1.50|https://dextermag.eu/|
 |Roller|1|$3.50|www.example.com|
 |Total: |2|$5.00| |
 

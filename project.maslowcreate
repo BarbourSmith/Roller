@@ -249,7 +249,7 @@
                         "BOMitemName": "Magnet",
                         "numberNeeded": 1,
                         "costUSD": 1.5,
-                        "source": "www.example.com",
+                        "source": "https://dextermag.eu/",
                         "totalNeeded": 0
                     }
                 },
