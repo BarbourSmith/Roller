@@ -2,8 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Magnet|3|$4.50|https://dextermag.eu/|
-|Roller|3|$10.50|www.example.com|
-|Total: |6|$15.00| |
+|Magnet|1|$1.50|https://dextermag.eu/|
+|Roller|1|$3.50|www.example.com|
+|Total: |2|$5.00| |
 
- 3xCOG MSRP: $45.00
+ 3xCOG MSRP: $15.00

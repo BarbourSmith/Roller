@@ -153,6 +153,21 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 554,
+                    "y": 279,
+                    "uniqueID": 388872,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Magnet",
+                        "numberNeeded": 1,
+                        "costUSD": 1.5,
+                        "source": "https://dextermag.eu/",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 647,
@@ -176,10 +191,14 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 758,
-                    "y": 161,
+                    "x": 666,
+                    "y": 127,
                     "uniqueID": 416550,
                     "ioValues": [
+                        {
+                            "name": "3D shape 172493",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 963797",
                             "ioValue": 10
@@ -200,27 +219,10 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 853,
-                    "y": 226,
-                    "uniqueID": 830533,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 939,
-                    "y": 135,
-                    "uniqueID": 124624,
-                    "ioValues": [],
-                    "selectedColorIndex": "0"
-                },
-                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1034,
-                    "y": 183,
+                    "x": 791,
+                    "y": 67,
                     "uniqueID": 954855,
                     "ioValues": [],
                     "BOMitem": {
@@ -232,32 +234,52 @@
                     }
                 },
                 {
-                    "atomType": "Stl",
-                    "name": "Stl",
-                    "x": 1073,
-                    "y": 259,
-                    "uniqueID": 657396,
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 801,
+                    "y": 201,
+                    "uniqueID": 830533,
                     "ioValues": []
                 },
                 {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 1132,
-                    "y": 132,
-                    "uniqueID": 388872,
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 906,
+                    "y": 248,
+                    "uniqueID": 103917,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 302563",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 225503",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 514249",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 302563",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 957,
+                    "y": 125,
+                    "uniqueID": 124624,
                     "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Magnet",
-                        "numberNeeded": 1,
-                        "costUSD": 1.5,
-                        "source": "https://dextermag.eu/",
-                        "totalNeeded": 0
-                    }
+                    "selectedColorIndex": "0"
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -331,9 +353,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry",
                     "ap1ID": 379254,
-                    "ap2ID": 830533
+                    "ap2ID": 388872
                 },
                 {
                     "ap1Name": "result",
@@ -349,44 +371,50 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 388872,
+                    "ap2ID": 830533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 225503",
+                    "ap1ID": 388872,
+                    "ap2ID": 103917
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 720434",
                     "ap1ID": 515011,
                     "ap2ID": 416550
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "geometry",
                     "ap1ID": 416550,
-                    "ap2ID": 830533
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 830533,
-                    "ap2ID": 124624
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 830533,
-                    "ap2ID": 657396
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 124624,
                     "ap2ID": 954855
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": 954855,
-                    "ap2ID": 388872
+                    "ap2ID": 830533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 514249",
+                    "ap1ID": 830533,
+                    "ap2ID": 103917
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 103917,
+                    "ap2ID": 124624
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 388872
+                    "ap1ID": 124624
                 }
             ],
             "fileTypeVersion": 1
