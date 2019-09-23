@@ -2,8 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Magnet|1|$1.50|https://dextermag.eu/|
+|Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
 |Roller|1|$3.50|www.example.com|
-|Total: |2|$5.00| |
+|Total: |2|$3.67| |
 
- 3xCOG MSRP: $15.00
+ 3xCOG MSRP: $11.01
