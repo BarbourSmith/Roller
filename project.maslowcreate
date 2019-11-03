@@ -101,7 +101,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 41
                         }
                     ]
                 },
@@ -127,7 +127,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 10
+                            "ioValue": 41
                         },
                         {
                             "name": "y",
@@ -189,7 +189,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 16.5
+                            "ioValue": 47.5
                         }
                     ]
                 },
@@ -200,14 +200,6 @@
                     "y": 127,
                     "uniqueID": 416550,
                     "ioValues": [
-                        {
-                            "name": "3D shape 172493",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 172493",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 963797",
                             "ioValue": 10
@@ -263,29 +255,29 @@
                     "uniqueID": 103917,
                     "ioValues": [
                         {
-                            "name": "3D shape 237098",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "3D shape 225503",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 514249",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 237098",
-                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 975,
+                    "y": 113,
+                    "uniqueID": 266117,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 957,
-                    "y": 125,
+                    "x": 1100,
+                    "y": 176,
                     "uniqueID": 124624,
                     "ioValues": [],
                     "selectedColorIndex": "0"
@@ -294,7 +286,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 154.5,
                     "ioValues": []
                 }
             ],
@@ -424,6 +416,12 @@
                     "ap2Name": "3D shape 514249",
                     "ap1ID": 830533,
                     "ap2ID": 103917
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 830533,
+                    "ap2ID": 266117
                 },
                 {
                     "ap1Name": "geometry",
