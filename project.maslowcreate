@@ -43,7 +43,7 @@
                 {
                     "atomType": "Input",
                     "name": "Center Length",
-                    "x": 15,
+                    "x": 30,
                     "y": 179,
                     "uniqueID": 306268,
                     "ioValues": []
@@ -83,7 +83,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 6.1
+                            "ioValue": 6
                         }
                     ]
                 },
