@@ -36,7 +36,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 7
+                            "ioValue": 3.8
                         }
                     ]
                 },
@@ -70,7 +70,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 7
+                            "ioValue": 3.8
                         }
                     ]
                 },
@@ -126,7 +126,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 7
+                            "ioValue": 3.8
                         }
                     ],
                     "currentEquation": "x + y"
@@ -170,7 +170,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 48
+                            "ioValue": 44.8
                         }
                     ]
                 },
@@ -209,7 +209,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 7
+                            "ioValue": 3.8
                         }
                     ]
                 },
