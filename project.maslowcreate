@@ -301,6 +301,21 @@
                     "selectedColorIndex": "0"
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1213,
+                    "y": 244,
+                    "uniqueID": 777768,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Roller",
+                        "numberNeeded": 1,
+                        "costUSD": 3,
+                        "source": "www.example.com",
+                        "totalNeeded": 1
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -493,9 +508,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 124624,
+                    "ap2ID": 777768
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 124624
+                    "ap1ID": 777768
                 }
             ],
             "fileTypeVersion": 1
