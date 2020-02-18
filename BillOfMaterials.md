@@ -2,7 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Roller|2|$3.00|www.example.com|
-|Total: |2|$3.00| |
+|Encoder Magnet|2|$2.00|www.example.com|
+|Roller|2|$2.00|www.example.com|
+|Total: |4|$4.00| |
 
- 3xCOG MSRP: $9.00
+ 3xCOG MSRP: $12.00

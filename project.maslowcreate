@@ -154,6 +154,19 @@
                     "selectedColorIndex": "12"
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 587,
+                    "y": 287,
+                    "uniqueID": 379254,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2.5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 708,
@@ -177,8 +190,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 694,
-                    "y": 203,
+                    "x": 704,
+                    "y": 196,
                     "uniqueID": 490333,
                     "ioValues": [
                         {
@@ -214,17 +227,27 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 765,
-                    "y": 281,
-                    "uniqueID": 379254,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2.5
-                        }
-                    ]
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 892,
+                    "y": 233,
+                    "uniqueID": 170607,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Encoder Magnet",
+                        "numberNeeded": 1,
+                        "costUSD": 2,
+                        "source": "www.example.com",
+                        "totalNeeded": 1
+                    }
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 912,
+                    "y": 159,
+                    "uniqueID": 830533,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -249,39 +272,28 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 957,
-                    "y": 158,
-                    "uniqueID": 830533,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 935,
-                    "y": 286,
+                    "x": 1035,
+                    "y": 254,
                     "uniqueID": 122588,
                     "ioValues": [],
                     "selectedColorIndex": "9"
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 1086,
-                    "y": 249,
-                    "uniqueID": 103917,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 225503",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 514249",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1101,
+                    "y": 181,
+                    "uniqueID": 363461,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Roller",
+                        "numberNeeded": 1,
+                        "costUSD": 2,
+                        "source": "www.example.com",
+                        "totalNeeded": 1
+                    }
                 },
                 {
                     "atomType": "Stl",
@@ -294,26 +306,29 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 1151,
-                    "y": 134,
+                    "x": 1201,
+                    "y": 125,
                     "uniqueID": 124624,
                     "ioValues": [],
                     "selectedColorIndex": "0"
                 },
                 {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 1213,
-                    "y": 244,
-                    "uniqueID": 777768,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Roller",
-                        "numberNeeded": 1,
-                        "costUSD": 3,
-                        "source": "www.example.com",
-                        "totalNeeded": 1
-                    }
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 1209,
+                    "y": 254,
+                    "uniqueID": 103917,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 225503",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 514250",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -438,6 +453,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 379254,
+                    "ap2ID": 830533
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 379254,
+                    "ap2ID": 170607
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 720434",
                     "ap2Primary": false,
                     "ap1ID": 515011,
@@ -461,29 +490,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 379254,
+                    "ap1ID": 170607,
                     "ap2ID": 122588
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 379254,
-                    "ap2ID": 830533
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 416550,
-                    "ap2ID": 830533
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 514249",
-                    "ap2Primary": false,
-                    "ap1ID": 830533,
-                    "ap2ID": 103917
                 },
                 {
                     "ap1Name": "geometry",
@@ -494,6 +502,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 830533,
+                    "ap2ID": 363461
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 416550,
+                    "ap2ID": 830533
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 225503",
                     "ap2Primary": false,
                     "ap1ID": 122588,
@@ -501,23 +523,23 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 103917,
-                    "ap2ID": 124624
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 124624,
-                    "ap2ID": 777768
+                    "ap2Name": "3D shape 514250",
+                    "ap2Primary": false,
+                    "ap1ID": 363461,
+                    "ap2ID": 103917
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 777768
+                    "ap1ID": 124624
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 103917,
+                    "ap2ID": 124624
                 }
             ],
             "fileTypeVersion": 1
