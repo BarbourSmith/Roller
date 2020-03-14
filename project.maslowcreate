@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Magnet",
-            "x": 0.6866764275256223,
-            "y": 0.8275862068965518,
+            "x": 0.6090775988286969,
+            "y": 0.8620689655172414,
             "uniqueID": 508914,
             "ioValues": [
                 {
@@ -253,8 +253,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5329428989751098,
-                    "y": 0.4406130268199233,
+                    "x": 0.4853587115666179,
+                    "y": 0.3639846743295019,
                     "uniqueID": 707823,
                     "ioValues": [
                         {
@@ -307,6 +307,21 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.7181551976573939,
+                    "y": 0.14942528735632182,
+                    "uniqueID": 363461,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Roller",
+                        "numberNeeded": 1,
+                        "costUSD": 2,
+                        "source": "www.example.com",
+                        "totalNeeded": 1
+                    }
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.24011713030746704,
@@ -318,21 +333,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 0.7459736456808199,
-                    "y": 0.22605363984674332,
-                    "uniqueID": 363461,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Roller",
-                        "numberNeeded": 1,
-                        "costUSD": 2,
-                        "source": "www.example.com",
-                        "totalNeeded": 1
-                    }
                 },
                 {
                     "atomType": "Constant",
@@ -350,11 +350,55 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.8206442166910688,
-                    "y": 0.3218390804597701,
+                    "x": 0.7481698389458272,
+                    "y": 0.3409961685823755,
                     "uniqueID": 124624,
                     "ioValues": [],
                     "selectedColorIndex": "0"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.8096632503660322,
+                    "y": 0.1532567049808429,
+                    "uniqueID": 810052,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Roller"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5614934114202049,
+                    "y": 0.6245210727969348,
+                    "uniqueID": 490333,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.25988286969253294,
+                    "y": 0.9080459770114941,
+                    "uniqueID": 686265,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 41
+                        }
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -370,19 +414,6 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.2679355783308931,
-                    "y": 0.9118773946360152,
-                    "uniqueID": 686265,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 41
-                        }
-                    ]
-                },
-                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 0.3674963396778917,
@@ -394,9 +425,9 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5592972181551977,
-                    "y": 0.89272030651341,
-                    "uniqueID": 490333,
+                    "x": 0.8682284040995608,
+                    "y": 0.5440613026819924,
+                    "uniqueID": 253388,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
@@ -412,8 +443,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Magnet",
-                    "x": 0.6866764275256223,
-                    "y": 0.8275862068965518,
+                    "x": 0.6090775988286969,
+                    "y": 0.8620689655172414,
                     "uniqueID": 508914,
                     "ioValues": [
                         {
@@ -512,15 +543,15 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 641414,
-                    "ap2ID": 217897
+                    "ap1ID": 363461,
+                    "ap2ID": 124624
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 363461,
-                    "ap2ID": 124624
+                    "ap1ID": 641414,
+                    "ap2ID": 217897
                 },
                 {
                     "ap1Name": "number",
@@ -545,16 +576,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 124624
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 124624,
+                    "ap2ID": 810052
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 720589,
-                    "ap2ID": 686265
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 810052,
+                    "ap2ID": 253388
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 490333,
+                    "ap2ID": 297659
                 },
                 {
                     "ap1Name": "geometry",
@@ -565,6 +604,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 720589,
+                    "ap2ID": 686265
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 245850,
@@ -572,10 +618,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 253388
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
-                    "ap1ID": 490333,
-                    "ap2ID": 297659
+                    "ap1ID": 508914,
+                    "ap2ID": 253388
                 }
             ],
             "fileTypeVersion": 1
