@@ -283,11 +283,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 3",
+                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -370,24 +370,6 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.5614934114202049,
-                    "y": 0.6245210727969348,
-                    "uniqueID": 490333,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.25988286969253294,
@@ -430,11 +412,15 @@
                     "uniqueID": 253388,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
                             "ioValue": 10
                         }
                     ],
@@ -534,10 +520,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 217897,
-                    "ap2ID": 490333
+                    "ap2ID": 297659
                 },
                 {
                     "ap1Name": "geometry",
@@ -583,17 +569,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 810052,
                     "ap2ID": 253388
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 490333,
-                    "ap2ID": 297659
                 },
                 {
                     "ap1Name": "geometry",
@@ -611,10 +590,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
+                    "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 245850,
-                    "ap2ID": 490333
+                    "ap2ID": 253388
                 },
                 {
                     "ap1Name": "geometry",
@@ -624,7 +603,7 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 5",
                     "ap2Primary": false,
                     "ap1ID": 508914,
                     "ap2ID": 253388
