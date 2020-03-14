@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Magnet",
-            "x": 0.7174231332357247,
-            "y": 0.7777777777777777,
+            "x": 0.6866764275256223,
+            "y": 0.8275862068965518,
             "uniqueID": 508914,
             "ioValues": [
                 {
@@ -387,6 +387,15 @@
                     "selectedColorIndex": "12"
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.8865300146412884,
+                    "y": 0.5517241379310345,
+                    "uniqueID": 124624,
+                    "ioValues": [],
+                    "selectedColorIndex": "0"
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.5592972181551977,
@@ -405,19 +414,10 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.8879941434846266,
-                    "y": 0.5670498084291188,
-                    "uniqueID": 124624,
-                    "ioValues": [],
-                    "selectedColorIndex": "0"
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Magnet",
-                    "x": 0.7174231332357247,
-                    "y": 0.7777777777777777,
+                    "x": 0.6866764275256223,
+                    "y": 0.8275862068965518,
                     "uniqueID": 508914,
                     "ioValues": [
                         {
@@ -581,6 +581,12 @@
                     "ap2Primary": false,
                     "ap1ID": 508914,
                     "ap2ID": 416550
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 508914
                 }
             ],
             "fileTypeVersion": 1
