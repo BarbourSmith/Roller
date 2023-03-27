@@ -28,7 +28,7 @@
         {
             "atomType": "Input",
             "name": "Center Length",
-            "x": 0.022693997071742314,
+            "x": 0.013333333333333334,
             "y": 0.32567049808429116,
             "uniqueID": 306268,
             "ioValues": []
@@ -40,6 +40,10 @@
             "y": 0.3065134099616858,
             "uniqueID": 383819,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/841794/539232Circle"
+                },
                 {
                     "name": "height",
                     "ioValue": 3.8
@@ -53,6 +57,10 @@
             "y": 0.1417624521072797,
             "uniqueID": 515011,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/841794/383819Extrude"
+                },
                 {
                     "name": "xDist",
                     "ioValue": 0
@@ -75,6 +83,10 @@
             "uniqueID": 707823,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "source/841794/383819Extrude"
+                },
+                {
                     "name": "xDist",
                     "ioValue": 0
                 },
@@ -90,7 +102,7 @@
         },
         {
             "atomType": "Equation",
-            "name": "Equation",
+            "name": "-1*L",
             "x": 0.3008784773060029,
             "y": 0.5938697318007663,
             "uniqueID": 841333,
@@ -111,32 +123,17 @@
             "ioValues": [
                 {
                     "name": "3D shape 1",
-                    "ioValue": 10
+                    "ioValue": "source/841794/707823Translate"
                 },
                 {
                     "name": "3D shape 3",
-                    "ioValue": 10
+                    "ioValue": "source/841794/515011Translate"
                 },
                 {
                     "name": "3D shape 4",
-                    "ioValue": 10
+                    "ioValue": "source/841794/217897Extrude"
                 }
             ]
-        },
-        {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.7181551976573939,
-            "y": 0.14942528735632182,
-            "uniqueID": 363461,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "Roller",
-                "numberNeeded": 1,
-                "costUSD": 2,
-                "source": "www.example.com",
-                "totalNeeded": 1
-            }
         },
         {
             "atomType": "Constant",
@@ -162,6 +159,10 @@
             "uniqueID": 217897,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "source/841794/641414Circle"
+                },
+                {
                     "name": "height",
                     "ioValue": 41
                 }
@@ -184,6 +185,10 @@
             "uniqueID": 686265,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "source/841794/720589Circle"
+                },
+                {
                     "name": "height",
                     "ioValue": 41
                 }
@@ -197,6 +202,10 @@
             "uniqueID": 810052,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "source/841794/124624Color"
+                },
+                {
                     "name": "tag",
                     "ioValue": "Roller"
                 }
@@ -208,7 +217,12 @@
             "x": 0.6727672035139092,
             "y": 0.5977011494252873,
             "uniqueID": 245850,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/841794/686265Extrude"
+                }
+            ],
             "selectedColorIndex": "12"
         },
         {
@@ -246,15 +260,15 @@
             "ioValues": [
                 {
                     "name": "3D shape 3",
-                    "ioValue": 10
+                    "ioValue": "source/841794/245850Color"
                 },
                 {
                     "name": "3D shape 4",
-                    "ioValue": 10
+                    "ioValue": "source/841794/810052Tag"
                 },
                 {
                     "name": "3D shape 5",
-                    "ioValue": 10
+                    "ioValue": "source/841794/508914Molecule"
                 }
             ]
         },
@@ -280,6 +294,10 @@
                     "uniqueID": 852326,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "source/841794/508914/394743Circle"
+                        },
+                        {
                             "name": "height",
                             "ioValue": 2.5
                         }
@@ -299,21 +317,6 @@
                     ]
                 },
                 {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 0.40043923865300146,
-                    "y": 0.32567049808429116,
-                    "uniqueID": 227114,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Magnet",
-                        "numberNeeded": 1,
-                        "costUSD": 0.19,
-                        "source": "https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786",
-                        "totalNeeded": 1
-                    }
-                },
-                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 0.5900439238653001,
@@ -325,14 +328,14 @@
                 {
                     "atomType": "Input",
                     "name": "Shoulder Length",
-                    "x": 0.15300146412884333,
+                    "x": 0.013333333333333334,
                     "y": 0.7509578544061302,
                     "uniqueID": 988228,
                     "ioValues": []
                 },
                 {
                     "atomType": "Equation",
-                    "name": "Equation",
+                    "name": "-1*L",
                     "x": 0.4099560761346998,
                     "y": 0.7816091954022989,
                     "uniqueID": 130845,
@@ -352,6 +355,10 @@
                     "uniqueID": 198893,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": "source/841794/508914/907296Color"
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -370,6 +377,7 @@
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
+                    "uniqueID": 156696,
                     "ioValues": []
                 }
             ],
@@ -378,22 +386,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 852326,
-                    "ap2ID": 227114
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 394743,
                     "ap2ID": 852326
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 227114,
-                    "ap2ID": 907296
                 },
                 {
                     "ap1Name": "geometry",
@@ -415,22 +409,24 @@
                     "ap2Primary": false,
                     "ap1ID": 130845,
                     "ap2ID": 198893
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 198893
                 }
             ],
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
             "y": 0.5,
-            "ioValues": []
+            "uniqueID": 912693,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "source/841794/253388Assembly"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -496,20 +492,6 @@
             "ap2Primary": false,
             "ap1ID": 841333,
             "ap2ID": 707823
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 297659,
-            "ap2ID": 363461
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 363461,
-            "ap2ID": 124624
         },
         {
             "ap1Name": "number",
@@ -585,7 +567,8 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 253388
+            "ap1ID": 253388,
+            "ap2ID": 912693
         },
         {
             "ap1Name": "Geometry",
@@ -596,6 +579,8 @@
         }
     ],
     "fileTypeVersion": 1,
+    "simplify": false,
+    "unitsIndex": 0,
     "filetypeVersion": 1,
     "circleSegmentSize": 0.25
 }
